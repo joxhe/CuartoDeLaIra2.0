@@ -1,0 +1,34 @@
+/* index.css — variables globales y reset */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cream:        #F7F2EC;
+  --white-warm:   #FAFAF8;
+  --terracota:    #C4622D;
+  --terracota-dk: #A04F22;
+  --terracota-lt: #F0DDD3;
+  --sage:         #3A7D5A;
+  --muted-earth:  #7A6A5A;
+  --dark-coffee:  #2C2118;
+  --border:       rgba(44,33,24,0.10);
+  --border-soft:  rgba(44,33,24,0.06);
+  --radius-sm:    8px;
+  --radius-md:    16px;
+  --radius-lg:    24px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--white-warm);
+  color: var(--dark-coffee);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
