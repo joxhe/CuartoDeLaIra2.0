@@ -1,9 +1,9 @@
 const steps = [
-  { n: 1, title: 'Llegás',           desc: 'Reservás tu sesión y te registrás en el centro' },
-  { n: 2, title: 'Test emocional',   desc: 'Completás una evaluación psicométrica rápida' },
-  { n: 3, title: 'Diagnóstico',      desc: 'El software te asigna el cuarto indicado' },
-  { n: 4, title: 'Liberás',          desc: 'Vivís la experiencia en un entorno seguro' },
-  { n: 5, title: 'Salís equilibrado',desc: 'Con herramientas para sostener tu bienestar' },
+  { n: 1, title: 'Llegas',              desc: 'Reservas tu sesión y te registras en el centro' },
+  { n: 2, title: 'Test emocional',      desc: 'Completas una evaluación psicométrica rápida' },
+  { n: 3, title: 'Diagnóstico',         desc: 'Una psicóloga revisa tu perfil y te asigna el cuarto indicado' },
+  { n: 4, title: 'Liberas',             desc: 'Vives la experiencia en un entorno seguro y acompañado' },
+  { n: 5, title: 'Sales en equilibrio', desc: 'Con herramientas para sostener tu bienestar en el día a día' },
 ]
 
 export default function Proceso() {

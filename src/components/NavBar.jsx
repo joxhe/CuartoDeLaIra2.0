@@ -6,6 +6,7 @@ const links = [
   { href: '#cuartos',    label: 'Los cuartos' },
   { href: '#proceso',    label: 'Proceso' },
   { href: '#impacto',    label: 'Impacto' },
+  { href: '#test',       label: 'Test emocional' },
 ]
 
 export default function Navbar() {
@@ -24,7 +25,6 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="nav-logo">CUARTO<span>.</span>ira</div>
 
-      {/* Desktop links */}
       <ul className={`nav-links ${open ? 'open' : ''}`}>
         {links.map(l => (
           <li key={l.href}>
@@ -38,7 +38,6 @@ export default function Navbar() {
         </li>
       </ul>
 
-      {/* Burger */}
       <button
         className={`burger ${open ? 'open' : ''}`}
         onClick={() => setOpen(o => !o)}

@@ -9,6 +9,7 @@ import RoomModal from './components/RoomModal'
 import Proceso from './components/Proceso'
 import Publico from './components/Publico'
 import Impacto from './components/Impacto'
+import TestEmocional from './components/Testemocional'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
 import './App.css'
@@ -28,11 +29,11 @@ function App() {
         <Proceso />
         <Publico />
         <Impacto />
+        <TestEmocional />
         <Contacto />
       </main>
       <Footer />
 
-      {/* Modal global — recibe el cuarto seleccionado */}
       {modalRoom && (
         <RoomModal room={modalRoom} onClose={() => setModalRoom(null)} />
       )}

@@ -1,5 +1,4 @@
 // src/data/rooms.js
-// Editá aquí los textos, imágenes y beneficios de cada cuarto
 
 export const rooms = [
   {
@@ -31,24 +30,10 @@ export const rooms = [
     ],
   },
   {
-    id: 'relax',
-    title: 'Cuarto de Relajación',
-    tag: 'Inmersión sensorial',
-    step: '03',
-    image: '/assets/relax.png',
-    desc: 'Un ambiente multisensorial con meditación guiada, sonidos de baja frecuencia, iluminación cálida y tecnología háptica para activar la respuesta parasimpática del cuerpo.',
-    benefits: [
-      'Reducción profunda de la ansiedad',
-      'Mejora de la calidad del sueño',
-      'Activación del sistema nervioso parasimpático',
-      'Sensación de paz y reconexión',
-    ],
-  },
-  {
     id: 'estimulacion',
     title: 'Cuarto de Estimulación',
     tag: 'Activación cognitiva',
-    step: '04',
+    step: '03',
     image: '/assets/estimulacion.png',
     desc: 'Un espacio diseñado para despertar los sentidos y activar el cerebro a través de desafíos sensoriales, luz, sonido y ejercicios cognitivos.',
     benefits: [
