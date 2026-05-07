@@ -20,7 +20,7 @@ export const rooms = [
     title: 'Cuarto de Estrés',
     tag: 'Descompresión lúdica',
     step: '02',
-    image: '/assets/estres.png',
+    image: '/assets/estres.jpeg',
     desc: 'Actividades dinámicas y lúdicas diseñadas para desactivar la respuesta de estrés crónico. Ideal para profesionales y estudiantes que necesitan desconectar de forma activa.',
     benefits: [
       'Actividades físicas controladas',
@@ -34,7 +34,7 @@ export const rooms = [
     title: 'Cuarto de Estimulación',
     tag: 'Activación cognitiva',
     step: '03',
-    image: '/assets/estimulacion.png',
+    image: '/assets/estimulacion.jpeg',
     desc: 'Un espacio diseñado para despertar los sentidos y activar el cerebro a través de desafíos sensoriales, luz, sonido y ejercicios cognitivos.',
     benefits: [
       'Estimulación multisensorial con luz, sonido y texturas',

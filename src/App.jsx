@@ -12,10 +12,16 @@ import Impacto from './components/Impacto'
 import TestEmocional from './components/Testemocional'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
+import AdminPanel from './components/AdminPanel'
 import './App.css'
+
+// Enrutamiento simple sin react-router — si la URL es /admin muestra el panel
+const isAdmin = window.location.pathname === '/admin'
 
 function App() {
   const [modalRoom, setModalRoom] = useState(null)
+
+  if (isAdmin) return <AdminPanel />
 
   return (
     <>
