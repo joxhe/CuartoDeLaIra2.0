@@ -12,7 +12,7 @@ import Impacto from './components/Impacto'
 import TestEmocional from './components/Testemocional'
 import Contacto from './components/Contacto'
 import Footer from './components/Footer'
-import AdminPanel from './components/AdminPanel'
+import AdminPanel from './components/Adminpanel'
 import './App.css'
 
 // Enrutamiento simple sin react-router — si la URL es /admin muestra el panel
