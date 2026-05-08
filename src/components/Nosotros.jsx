@@ -1,8 +1,5 @@
 const pillars = [
-  { icon: '🎯', title: 'Misión',    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.' },
-  { icon: '🔭', title: 'Visión',    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.' },
-  { icon: '🤝', title: 'Valores',   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.' },
-  { icon: '📍', title: 'Contexto',  desc: 'Arraigados en la región Caribe colombiana, para su comunidad.' },
+
 ]
 
 export default function Nosotros() {
@@ -18,16 +15,11 @@ export default function Nosotros() {
               Un equipo que cree en el <em>bienestar real.</em>
             </h2>
             <p className="section-lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Somos un equipo
+              Somos un equipo
               interdisciplinario de psicólogos y especialistas en bienestar emocional
               comprometidos con crear espacios seguros para la expresión y liberación
               de emociones. Nacimos en Sincelejo con la convicción de que el bienestar
               mental no debería ser un privilegio.
-            </p>
-            <p className="section-lead" style={{ marginTop: '1rem' }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris.
             </p>
 
             <div className="nosotros-pillars">
@@ -45,8 +37,7 @@ export default function Nosotros() {
           <div className="nosotros-visual">
             <div className="nosotros-big-card">
               <p className="nosotros-quote">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+                "El lugar donde las emociones encuentran la salida del laberinto que confunde nuestro pensar."
               </p>
               <p className="nosotros-quote-author">— Fundadoras, Cuarto de la Ira</p>
             </div>
